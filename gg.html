@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            width: 100%;
+        }
+
+        .displa{
+            width: 100px;
+            height: 200px;
+            background-color: rgb(255, 251, 251);
+            display: none;
+            border: 2px solid black;
+        }
+
+        .disp:hover .displa{
+            display: table-cell;
+        }
+
+
+
+        .bor1 {
+            display: flex;
+            justify-content: end;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .google {
+            justify-content: center;
+            display: flex;
+        }
+
+        .bor3{
+            display: flex;
+            /* justify-content: center; */
+            flex-direction: row;
+            border: 1px solid rgb(228, 221, 221) ;
+            margin: 0 auto;
+            box-sizing: content-box;
+            width: 45%;
+            border-radius: 20px;
+            height: 2.6rem;
+            align-content: center;
+            justify-content: space-evenly;
+            /* border: 1px thin rgb(255, 255, 255);      */
+        }
+
+        .search1{
+            align-items: center;
+            align-content: center;
+        }
+
+        .bor3:hover{
+            /* border: 0.2px solid black; */
+            /* border-style: outset ; */
+            border: 0.2px thin rgb(241, 234, 234);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
+            
+        }
+
+        .mic {
+            align-content: center;
+
+        }
+        .cam{
+            align-content: center;
+        }
+        
+        .bor4{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 20px;
+            margin-top: 30px;
+
+        }
+        .ggs >a {
+            text-decoration: none;
+            color: black; 
+            justify-content: space-between;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .ggs2 >a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            justify-content: center;
+        }
+
+        .ggs {
+            /* border: 1px solid black; */
+            background-color: rgb(250, 249, 249);
+            height: 40px;
+            width: 180px;
+            align-items: center;
+        }
+
+        .ggs:hover{
+            background-color: rgb(241, 236, 236);
+            box-shadow: 4cm;
+        }
+
+        .ggs2{
+            /* border: 1px solid black; */
+            background-color: rgb(250, 249, 249);
+            height: 40px;
+            width: 150px;
+            align-items: center;
+            
+        }
+
+        .ggs2:hover{
+            background-color: rgb(241, 236, 236);
+            box-shadow: 4cm;            
+        }
+
+        .bor5{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .inpm {
+            width: 100%;
+            outline: none;
+            border: none;
+        }
+        .inp {
+            width: 80%;
+            align-content: center;
+        }
+
+        .bor4 div {
+            align-content: center;
+        }
+
+        .bot {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            height: 40px;
+            align-items: center;
+            padding-left: 3%;
+            padding-right: 3%;
+            background-color:rgb(231, 230, 230)
+
+
+
+        }
+
+        div {
+            /* border: 1px solid black; */
+        }
+
+        .buttom {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            
+        }
+
+        .ll {
+            display: flex;
+            justify-content: center;
+            font-size: large;
+        }
+
+        .dip {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            font-size: large;
+        }
+
+        .last {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            font-size: large;
+        }
+
+        .gmail{
+            text-decoration: none;
+            color: black;
+        }
+
+        .gmail:hover  {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .Image {
+            text-decoration: none;
+            color: black;
+        }
+
+        .Image:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .hausa{
+            text-decoration: none;
+        }
+
+        .hausa:hover{
+            text-decoration: underline;
+        }
+
+        .igbo{
+            text-decoration: none;
+
+        }
+
+        .igbo:hover{
+            text-decoration: underline;
+        }
+
+        .yoruba{
+            text-decoration: none;
+        }
+
+        .yoruba:hover{
+            text-decoration: underline;
+        }
+
+        .pig{
+            text-decoration: none;
+        }
+
+        .pig:hover{
+            text-decoration: underline;
+        }
+
+        .pri{
+            color: black;
+            text-decoration: none;
+        }
+
+        .terms{
+            color: black;
+            text-decoration: none;
+        }
+
+        .set{
+            color: black;
+            text-decoration: none;
+        }
+        .leaf{
+            color: black;
+            text-decoration: none;
+        }
+
+        .how{
+            color: black;
+            text-decoration: none;
+        }
+
+        .busz{
+            color: black;
+            text-decoration: none;
+        }
+
+        .ad{
+            color: black;
+            text-decoration: none;
+        }
+
+        .abt{
+            color: black;
+            text-decoration: none;
+        }
+
+        .gr {
+            background-color:rgb(231, 230, 230);
+            padding-left: 3%;
+            margin-bottom: 1px;
+            height: 40px;
+        }
+
+        .buttom{
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+            
+        }
+        .inner{
+            width: 100%;
+            height: max-content;
+            margin: 0px;
+        }
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="bor1">
+            <div><a href="#" class="gmail">Gmail</a></div>
+            <div><a href="" class="Image">Image</a></div>
+            <div>
+                <img src="img/Capture.PNG" alt="">
+            </div>
+            <div class="disp">
+                <img src="img/logo.jpg" alt="" width="30px" height="30px">
+            <div class="displa">
+                <h1>Your Google Account</h1>
+            </div>
+            </div>
+
+
+        </div>
+        <div class="bor2">
+            <div class="google">
+                <img src="img/google.png" alt="#">
+            </div>
+            <div class="bor3">
+                <div class="search1">
+                    <img src="img/src.PNG" alt="#" >
+                </div>
+                <div class="inp">
+                    <input type="text" class="inpm">
+                </div>
+                <div class="mic">
+                    <img src="img/mic.PNG" alt="#">
+                </div>
+                <div class="cam">
+                    <img src="img/cam.PNG" alt="#">
+                </div>
+            </div>
+            <div>
+                <div class="bor4">
+                    <div class="ggs">
+                        <a href="">Google search</a>
+                    </div>
+                    <div class="ggs2">
+                        <a href="">Am feeling lucky</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bor4">
+                <div>
+                    <p>Google offered in</p>
+                </div>
+                <div  class="ggo">
+                    <a href="#" class="hausa">Hausa</a>
+                </div>
+                <div >
+                    <a href="#" class="igbo">Igbo</a>
+                </div>
+                <div>
+                    <a href="" class="yoruba">Èdè Yorùbá</a>
+                </div>
+                <div>
+                    <a href="#" class="pig">Nigeria Pidgin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttom">
+            <div class="inner">
+                <div class="gr">
+                    <p>Nigeria</p>
+                </div>
+                <div class="bot">
+                    <div class="dip">
+                        <div><a href="" class="abt">About</a></div>
+                        <div><a href="" class="ad">Advertising</a></div>
+                        <div><a href="" class="busz">Buiness</a></div>
+                        <div><a href="" class="how">How search works</a></div>
+                    </div>
+                    <div class="ll">
+                        <img src="img/download.png" alt="" width="10px" height="10px">
+                        <a href="" class="leaf">Our third decade of climate action: join us</a>
+                    </div>
+    
+                    <div class="last">
+                        <div><a href="" class="pri">privacy</a></div>
+                        <div><a href="" class="terms">Terms</a></div>
+                        <div><a href="" class="set">settings</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
